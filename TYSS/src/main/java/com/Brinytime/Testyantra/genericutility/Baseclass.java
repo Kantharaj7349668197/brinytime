@@ -45,6 +45,7 @@ public class Baseclass {
 		// to give implicit wait
 		webutils.implicitwait(driver);
 		webutils.explicitWait(driver);
+		Thread.sleep(30000);
 	}
 
 	@BeforeMethod//(groups = {"endtoend","smoke"})
