@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[siginpage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[home page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[we can track the order verified and test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[loginpage is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-02T15:54:21 IST" name="Default suite" finished-at="2023-06-02T15:54:30 IST" duration-ms="9381">
+    <groups>
+      <group name="smoke">
+        <method signature="TrackOrderTest.trackOrder()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" name="trackOrder" class="com.Ecommerce.BrinytimeLogin.TrackOrderTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-02T15:54:21 IST" name="Default test" finished-at="2023-06-02T15:54:30 IST" duration-ms="9381">
+      <class name="com.Ecommerce.BrinytimeLogin.TrackOrderTest">
+        <test-method is-config="true" signature="beforeclassconfig()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" started-at="2023-06-02T15:54:21 IST" name="beforeclassconfig" finished-at="2023-06-02T15:54:24 IST" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassconfig -->
+        <test-method is-config="true" signature="beforemethod_config()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" started-at="2023-06-02T15:54:24 IST" name="beforemethod_config" finished-at="2023-06-02T15:54:26 IST" duration-ms="2090" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[siginpage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod_config -->
+        <test-method signature="trackOrder()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" started-at="2023-06-02T15:54:26 IST" name="trackOrder" finished-at="2023-06-02T15:54:29 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[we can track the order verified and test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- trackOrder -->
+        <test-method is-config="true" signature="aftermethod_config()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" started-at="2023-06-02T15:54:29 IST" name="aftermethod_config" finished-at="2023-06-02T15:54:30 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[loginpage is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod_config -->
+        <test-method is-config="true" signature="afterclass_config()[pri:0, instance:com.Ecommerce.BrinytimeLogin.TrackOrderTest@3c7f66c4]" started-at="2023-06-02T15:54:30 IST" name="afterclass_config" finished-at="2023-06-02T15:54:30 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass_config -->
+      </class> <!-- com.Ecommerce.BrinytimeLogin.TrackOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="chrome">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.Ecommerce.BrinytimeLogin.AddToCartTest"/>
+      <class name="com.Ecommerce.BrinytimeLogin.TrackOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="edgeBrowser">
+  <parameter name="browser" value="Edge"></parameter>
+   <classes>
+      <class name="com.Ecommerce.BrinytimeLogin.RemoveProductFromCartTest"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

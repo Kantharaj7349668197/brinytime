@@ -1,0 +1,8 @@
+URL http://rmgtestingserver/domain/Online_Shopping_Application/
+browser chrome
+username anuj.lpu1@gmail.com
+password Test@123
+carturl Online_Shopping_Application/my-cart.php
+productcategorytitle Category
+Shopping_Portal_url Shopping Portal Home Page
+expectedUrl index.php
